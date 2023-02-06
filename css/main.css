@@ -296,7 +296,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, .33);
+    background-color: rgba(0, 0, 0);
     color: #fff;
     z-index: 50;
     margin: 0;
@@ -1395,7 +1395,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .page_header {
-    background: url(../img/header/1.jpg) no-repeat center top;
+    background-image: linear-gradient(to right, rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(../img/hidden-restobar-comida-fondo.jpeg);
     background-size: cover;
     padding: 200px 0 150px
 }
@@ -3246,6 +3246,9 @@ article p {
 }
 
 @media(max-width:992px) {
+    .hidden-img {
+        width: 90%;
+    }
     .list {
         padding-left: 0;
         margin-bottom: 0
